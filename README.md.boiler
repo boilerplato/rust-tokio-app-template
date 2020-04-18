@@ -1,0 +1,12 @@
+[![crates.io](https://img.shields.io/crates/v/{{packageName}}.svg)](https://crates.io/crates/{{packageName}})
+{{#if (and (eq (os null) "macos") (eq license "MIT"))}}[![MIT](https://img.shields.io/crates/l/{{packageName}}.svg)](./LICENSE){{/if}}
+{{#if (and (eq (os null) "linux") (eq license "MIT"))}}[![MIT](https://img.shields.io/crates/l/{{packageName}}.svg)](./LICENSE){{/if}}
+
+
+# {{appName}}
+
+{{appDescription}}
+
+## Contributing
+
+Your PRs and stars are always welcome.

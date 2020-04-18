@@ -1,0 +1,15 @@
+[package]
+name = "rust-tokio-app-template"
+version = "0.1.0"
+description = "A boilerplato template for a Rust async application using Tokio.rs."
+homepage = "https://github.com/boilerplato/rust-tokio-app-template"
+repository = "https://github.com/boilerplato/rust-tokio-app-template"
+keywords = ["boilerplato", "rust", "template", "asynchronous"]
+categories = ["template-engine"]
+authors = ["Rousan Ali <rousanali786@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+edition = "2018"
+
+[dependencies]
+tokio = { version = "0.2", features = ["full"] }
